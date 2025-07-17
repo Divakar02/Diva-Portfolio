@@ -6,6 +6,8 @@ import { BiMailSend } from "react-icons/bi";
 import { MdEmail } from "react-icons/md";
 import { socialLinks } from "../constants";
 const Hero = () => {
+
+  const cutout_img = `${import.meta.env.BASE_URL}assets/cutout/cutout.png`;
   const [activeSection, setActiveSection] = useState('home');
   const [showSocialIcons, setShowSocialIcons] = useState(false);
 
@@ -339,7 +341,7 @@ const Hero = () => {
                 />
                 
                 <motion.img 
-                  src="src\assets\cutout\cutout.png" 
+                  src={cutout_img}
                   alt="Divakar Ejilan Professional Photo"
                   className="relative z-10 w-full h-full object-cover object-center"
                   style={{ 
@@ -729,7 +731,7 @@ const Hero = () => {
 
     {/* Primary Image */}
     <motion.img 
-      src="src/assets/cutout/cutout.png" 
+      src={cutout_img}
       alt="Divakar Ejilan Professional Photo"
       className="w-full h-full object-cover object-bottom"
       style={{

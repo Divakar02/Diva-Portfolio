@@ -1,12 +1,20 @@
-import {
-  flutter, full_stack_django, full_stack_mern, nptel_java_dsa,
-  nptel_python, ocean_logo, nptel_logo, 
-
-  T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11,T12,
-  C1, C2, C3, C4, C5, C6, C7, C8, C9, C10, C11,C12,
-  I11, I12, I13, I21, I22, I23, I31, I32, I33, I41, I42, I43, I51, I52, I53, I61, I62, I63, I71, I72, I73, I81, I82, I83, I91, I92, I93, I101, I102, I103, I111, I112, I113, I121, I122, I123
-
-} from "../assets";
+import {  flutter,
+  full_stack_django,
+  full_stack_mern,
+  nptel_java_dsa,
+  nptel_python,
+  ocean_logo,
+  nptel_logo,
+  T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12,
+  C1, C2, C3, C4, C5, C6, C7, C8, C9, C10, C11, C12,
+  I11, I12, I13, I21, I22, I23, I31, I32, I33,
+  I41, I42, I43, I51, I52, I53, I61, I62, I63,
+  I71, I72, I73, I81, I82, I83, I91, I92, I93,
+  I101, I102, I103, I111, I112, I113,
+  I121, I122, I123,
+  P11, P12, P13, P14, P15, P16, P17, P18,
+ P21, P22, P23, P24, P25,
+ P31, P32, P33, P34, P35, P36} from "./images";
 
 const projects = [
   {
@@ -21,14 +29,7 @@ const projects = [
       { name: "Blockchain", color: "text-purple-400" }
     ],
     images: [
-      "/projects/zensafe/1.png",
-      "/projects/zensafe/2.png",
-      "/projects/zensafe/3.png",
-      "/projects/zensafe/4.png",
-      "/projects/zensafe/5.png",
-      "/projects/zensafe/6.png",
-      "/projects/zensafe/7.png",
-      "/projects/zensafe/8.png",
+      P11, P12, P13, P14, P15, P16, P17, P18
        
     ],
     github_link: "https://github.com/Divakar02/Hackverse_2025-Team_Matrix",
@@ -53,11 +54,7 @@ const projects = [
     { name: "Google Maps", color: "text-green-400" }
   ],
   images: [
-    "/projects/LPL/1.jpg",
-    "/projects/LPL/2.jpg",
-    "/projects/LPL/3.jpg",
-    "/projects/LPL/4.jpg",
-    "/projects/LPL/5.jpg"
+    P21, P22, P23, P24, P25
   ],
   github_link: "https://github.com/Divakar02/", // Add actual repo link if available
   date: "2024-08-01",
@@ -86,12 +83,7 @@ const projects = [
     { name: "VR", color: "text-purple-400" }
   ],
   images: [
-    "/projects/infinitehealth/1.jpg",
-    "/projects/infinitehealth/2.jpg",
-    "/projects/infinitehealth/3.jpg",
-    "/projects/infinitehealth/4.jpg",
-    "/projects/infinitehealth/5.jpg",
-    "/projects/infinitehealth/6.jpg"
+    P31, P32, P33, P34, P35, P36
   ],
   github_link: "https://github.com/Divakar02/", // Replace with actual if exists
   date: "2025-01-15",
