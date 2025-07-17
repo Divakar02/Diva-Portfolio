@@ -4,7 +4,7 @@ import viteImagemin from 'vite-plugin-imagemin';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/Diva-Portfolio/',
+  base: '/',
   plugins: [
     react(),
     viteImagemin({
