@@ -7,7 +7,7 @@ import { MdEmail } from "react-icons/md";
 import { socialLinks } from "../constants";
 const Hero = () => {
 
-  const cutout_img = `${import.meta.env.BASE_URL}assets/cutout/cutout.png`;
+  const cutout_img = `${import.meta.env.BASE_URL}assets/cutout/cutout.jpg`;
   const [activeSection, setActiveSection] = useState('home');
   const [showSocialIcons, setShowSocialIcons] = useState(false);
 
